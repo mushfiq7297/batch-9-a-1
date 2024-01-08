@@ -96,7 +96,6 @@ main {
 .party-container {
     background-image:
         linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Vectorrr.png');
-    background-size: cover;
     border-radius: 16px;
     background-size: cover;
     max-height: 600px;
@@ -139,9 +138,7 @@ main {
     padding-left: 28px;
 }
 
-.party-column-2 {
 
-}
 
 .party-image {
     display: block;
@@ -149,5 +146,47 @@ main {
     height: 464.662px;
     padding-top: 65px;
     padding-bottom: 65px;
-    padding-right:138px;
+    padding-right: 138px;
+}
+
+/* event-container */
+.event-container {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    margin: 120px auto;
+}
+
+.event {
+
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+.event-red {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+.btn-container{
+    text-align: center;
+}
+.btn-event {
+    padding: 16px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    border:none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
 }
