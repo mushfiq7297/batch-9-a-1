@@ -176,10 +176,12 @@ main {
     font-size: 32px;
     font-weight: 600;
 }
-.btn-container{
+
+.btn-container {
     text-align: center;
     padding-top: 48px;
 }
+
 .btn-event {
     padding: 16px 32px;
     align-items: center;
@@ -187,8 +189,74 @@ main {
     border-radius: 8px;
     background: #F00;
     color: #FFF;
-    border:none;
+    border: none;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
 }
+
+/* comming-son-style */
+.coming-soon {
+    display: flex;
+    width: 1320px;
+    height: 482px;
+    margin: auto;
+}
+
+.soon-right {
+    width: 390px;
+    padding-right: 70px;
+}
+
+.soon-right-1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.soon-right-2 {
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.soon-right-3 {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px; 
+
+}
+
+.soon-mid {
+    width:483px;
+
+}
+
+.soon-mid-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    text-align: center;
+    padding: 30px;
+}
+.soon-left{
+    width: 270px;
+    padding-left: 70px;
+}
+
+.soon-left-1 {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
